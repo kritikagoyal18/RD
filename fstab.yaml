@@ -1,0 +1,5 @@
+mountpoints:
+  /:
+    url: "https://author-p159983-e1711653.adobeaemcloud.com/bin/franklin.delivery/kritikagoyal18/RD/main"
+    type: "markup"
+    suffix: ".html"
