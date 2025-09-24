@@ -9,8 +9,8 @@ import { readBlockConfig } from '../../scripts/aem.js';
 export default async function decorate(block) {
 	// Configuration
   const CONFIG = {
-    WRAPPER_SERVICE_URL: 'https://defaultfa7b1b5a7b34438794aed2c178dece.e1.environment.api.powerplatform.com:443/powerautomate/automations/direct/workflows/2660b7afa9524acbae379074ae38501e/triggers/manual/paths/invoke',
-    WRAPPER_SERVICE_PARAMS: 'api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=uDpzD2f3QIHYqS4krx0sTF4M_2pElDpQ0lTHvFl9ntU',
+    WRAPPER_SERVICE_URL: 'https://defaultfa7b1b5a7b34438794aed2c178dece.e1.environment.api.powerplatform.com/powerautomate/automations/direct/workflows/2660b7afa9524acbae379074ae38501e/triggers/manual/paths/invoke',
+    WRAPPER_SERVICE_PARAMS: 'api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=sVKt8v7oAitK2vy0ft0dphdKye4gM8Ps4yAENB5oAus',
     GRAPHQL_QUERY: '/graphql/execute.json/wknd-universal/CTAByPath',
     EXCLUDED_THEME_KEYS: new Set(['brandSite', 'brandLogo'])
   };
